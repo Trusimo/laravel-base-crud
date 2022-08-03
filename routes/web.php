@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\ComicController;
 
-Route::get("/comics", "ComicController@index")->name("comics.index");
-Route::get("/comics/create", "ComicController@create")->name("comics.create");
-Route::get("/comics/{comic}", "ComicController@show")->name("comics.show");
-Route::post("/comics", "ComicController@store")->name("comics.store");
+Route::get("/comics/lista", "ComicController@index")->name("comics.index");
+Route::get("/comics/crea", "ComicController@create")->name("comics.create");
+Route::get("/comics/mostra/{comic}", "ComicController@show")->name("comics.show");
+Route::post("/comics/store", "ComicController@store")->name("comics.store");
