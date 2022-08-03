@@ -1,3 +1,1 @@
-<li>
-    placeholder
-</li>
+<h1>Ciao Index</h1>
